@@ -1,0 +1,145 @@
+print("Message")  => print msg in console
+
+type(object) => return data type of  object
+
+input("msg") => read value from console 
+
+round(value,round) =>
+
+max()
+
+min()
+
+
+for loop:
+  range(start,stop,step)
+
+
+def functionnName(args1,args2,,,,,args=default):
+        function definition
+
+functionnName(parameter1,parameter2,parameter3....)   
+
+
+
+def functionnName(*args):      #arguments
+      function definition
+
+functionnName(values)
+
+def functionnName(*kwargs):      #key word arguments
+      function definition
+
+functionnName(key=values)
+
+
+
+
+string => sequence of characters
+python handles string as class and objects
+
+
+class classname:
+   attributes:str
+   attributes:str
+
+  def methods():
+
+To create object ----->
+        reference_name=class_Name()
+
+class str:
+    def capitalize()
+
+    def casefold()
+
+    def isalpha
+
+    def isdigit()
+
+    def isalnum()
+
+    def startswith()
+    
+    def endswith()
+    
+    def split()
+
+    def strip()
+       =>  lstrip()
+       =>  rstrip()
+
+    def replace("source ","target ","count")
+
+    def find()
+
+
+ list[] or list()   duplicates alloweded
+
+ list { }     duplicates not alloweded also print in order
+
+ list comprehension =>  [return loop condition ]
+
+ tuple 
+
+set => set()  or set_name={values...}
+
+set.intersection()
+set.union()
+set.difference()
+set.add()
+set.remove()
+set.issubset()
+set.issuperset()
+set.symmetric_difference()   #(AUB - A^B)
+
+
+dictionary =>  key : value pair
+dict={}
+print(name["key"])
+
+print(dict_name.get("key"))
+
+dict_name.pop("keys")
+
+dict_name.keys()
+
+dict_name.value()
+
+dict_name.item()
+
+
+most recursive=print(max(filename,key=lamda var:filename.count(var)))
+next() ---> to remove nested list for a list contains only one sub list
+or we can use    new_name.extend(* old_name)
+
+
+
+file()
+
+open(path,mode)
+
+mode -->
+        r=read
+        w=write
+        a=write without removing existing data
+
+
+utility functions of python is defined in "builtins.py"
+
+json  -> data transfering format
+
+
+
+ErrorHandling -->
+        try 
+        except
+        finally
+        raise  -> generate custom error
+        assert  -> create custom error but we can pass condition, assertion error is generated
+                   when condition false
+
+Errors ---> ZeroDivisionError ,IndexoutofRangeError , FileNotFound
+
+
+Decorator 

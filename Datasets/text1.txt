@@ -1,0 +1,6 @@
+1001,ram,luminar
+1002,babs,luminar
+1003,rams,luminar
+1004,rahul,luminar
+1005,rat,luminar
+1006,rasim,luminar
